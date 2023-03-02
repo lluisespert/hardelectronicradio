@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+.cabecera {
+    background-image: url('../img/pie_de_cabecera_con_logo_letras.png');
+}
+
+div.center {
+    text-align: center;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.botones {
+    color: white;
+}
+
+.redondas {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    color:red;
+}
+
+p:hover {
+    color: blue;
+}
+
+.redondas:hover{
+    border-style: solid;
+    border-color: red;
+    height: 150px;
+    width: 150px;
+}
